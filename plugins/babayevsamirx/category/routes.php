@@ -52,6 +52,9 @@ Route::match(['GET'],'apim/product/{id}', function ($id) {
   return $product;
 });
 
+Route::match(['GET'],'apim/contact', function (Request $request) {
+  
+});
 
 
 // Route::match(['GET'],'api/categories', function() {
